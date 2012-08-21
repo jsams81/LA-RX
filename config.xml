@@ -2,7 +2,7 @@
 <widget xmlns	= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id			= "com.Synapse.larx"
-	version 	= "1.0.0">
+	version 	= "1.0.1">
 
 	<name>LA-RX</name>
 
@@ -18,8 +18,15 @@
 	<preference name="ios-statusbarstyle" value="black-opaque" />
 
 	<icon src="icon.png" />
+	<icon src="icon.png" width="57" height="57" />
+	<icon src="icon@2x.png" width="114" height="114" />
 	
-	<gap:splash src="splash.png" />
+	<gap:splash src="Default~iphone.png" />	
+	<gap:splash src="Default~iphone.png" width="320" height="480" />
+	<gap:splash src="Default@2x~iphone.png" width="640" height="960" />
 
+	<preference name="phonegap-version" value="1.9.0" />
 	<preference name="orientation" value="portrait" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />	
+	<preference name="target-device" value="handset" />
 </widget>
